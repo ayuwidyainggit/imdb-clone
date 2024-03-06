@@ -16,7 +16,7 @@ export default function Header() {
         <Link href={"/"}>
           <div className="flex gap-1 items-center">
             <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">
-              IMDb
+              IMDbg
             </span>
             <span className="text-xl hidden sm:inline">Clone</span>
           </div>
