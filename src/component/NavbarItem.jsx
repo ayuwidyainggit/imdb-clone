@@ -4,8 +4,8 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
 export default function NavbarItem({ title, param }) {
-  const searchParam = new useSearchParams();
-  const genre = searchParam.get(`genre`);
+  const searchParams = useSearchParams();
+  const genre = searchParams.get("genre");
   return (
     <div>
       <Link
