@@ -1,3 +1,7 @@
+// Import necessary modules
+import NavbarItem from "@/component/NavbarItem";
+
+// Define the About component
 export default function About() {
   return (
     <div className="max-w-6xl mx-auto p-3 space-y-4">
@@ -31,6 +35,11 @@ export default function About() {
         looking for ways to improve and enhance the user experience on our
         website. Happy browsing!
       </p>
+
+      {/* Example usage of NavbarItem */}
+      <NavbarItem title="Action" param="action" />
+      <NavbarItem title="Comedy" param="comedy" />
+      <NavbarItem title="Drama" param="drama" />
     </div>
   );
 }
